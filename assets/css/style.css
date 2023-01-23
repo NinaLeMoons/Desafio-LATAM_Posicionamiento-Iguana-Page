@@ -1,0 +1,125 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+/* header */
+
+header {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 7px 0px 7px 0px;
+}
+
+.header_image {
+    height: 727px;
+}
+
+/* main */
+
+/* description */
+.description {
+    width: 1280px;
+    height: 348px;
+    display: flex;
+}
+
+.description_text{
+    width: 475px;
+    height: 197px;
+    font-size: 16px;
+    margin: 76px 106px 75px 150px;
+    font-weight: 300;
+}
+
+.description_text_1{
+    margin-bottom: 16px;
+}
+
+.description img{
+    width: 399px;
+    height: 237px;
+    margin: 45px 150px 66px 0px;
+}
+
+/* features */
+
+.features{
+    width: 1280px;
+    height: 248px;
+    padding: 73px 0px;
+    background-color: #1E1A13;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.features h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    background-color: #1E1A13;
+}
+
+.features_icons {
+    background-color: #1E1A13;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 200px;
+}
+
+.features_icons_1{
+    background-color: #1E1A13;
+    font-size: 45px;
+}
+
+.features_icons_1 i{
+    background-color: #1E1A13;
+}
+
+.features_text{
+    font-size: 24px;
+    font-weight: 300;
+    background-color: #1E1A13;
+    padding-top: 16px;
+}
+
+/* images */
+
+.images {
+    width: 1280px;
+    margin: 73px 0px 73px 0px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.images_photos_1 {
+    width: 316px;
+    height: 202px;
+}
+
+.images_photos_2 {
+    width: 316px;
+    height: 202px;
+    padding: 0px 16px 0px 16px;
+}
+
+/* footer */
+
+footer{
+    width: 1280px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    padding: 39px 0px 39px 0px;
+}
+
+footer a{
+    text-decoration: none;
+}
