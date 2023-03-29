@@ -1,66 +1,56 @@
 *{
     font-family: 'Raleway', sans-serif;
-    background-color: black;
+    background-color: #000;
     padding: 0px;
     margin: 0px;
-    color: white;
-}
-
-/* header */
-
-header {
+    color: #fff;
     text-align: center;
 }
 
-.header_text {
-    font-size: 50px;
+/* header */
+header h1 {
+    font-size: 3rem;
     font-weight: 500;
-    margin: 7px 0px 7px 0px;
+    margin: 0.5rem 0rem;
+    opacity: 1;
 }
 
-.header_image {
-    height: 727px;
+.header_image{
+    width: 100%;
 }
 
 /* main */
 
 /* description */
 .description {
-    width: 1280px;
-    height: 348px;
     display: flex;
 }
 
 .description_text{
-    width: 475px;
-    height: 197px;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 76px 106px 75px 150px;
     font-weight: 300;
+    opacity: 1;
 }
 
 .description_text_1{
     margin-bottom: 16px;
+    text-align: start;
 }
 
 .description img{
-    width: 399px;
     height: 237px;
     margin: 45px 150px 66px 0px;
 }
 
 /* features */
-
 .features{
-    width: 1280px;
-    height: 248px;
     padding: 73px 0px;
     background-color: #1E1A13;
-    text-align: center;
     justify-content: space-around;
 }
 
-.features h1{
+article h1{
     font-size: 40px;
     font-weight: 500;
     padding-bottom: 50px;
@@ -76,7 +66,6 @@ header {
 
 .features_icons_1{
     background-color: #1E1A13;
-    font-size: 45px;
 }
 
 .features_icons_1 i{
@@ -91,35 +80,29 @@ header {
 }
 
 /* images */
-
 .images {
-    width: 1280px;
-    margin: 73px 0px 73px 0px;
-    display: inline-flex;
+    margin: 73px 0px;
+    display: flex;
     justify-content: space-around;
 }
 
-.images_photos_1 {
+.images img {
     width: 316px;
     height: 202px;
-}
-
-.images_photos_2 {
-    width: 316px;
-    height: 202px;
-    padding: 0px 16px 0px 16px;
+    padding: 0px 8px;
 }
 
 /* footer */
-
 footer{
-    width: 1280px;
     font-size: 20px;
     font-weight: 300;
-    text-align: center;
-    padding: 39px 0px 39px 0px;
+    padding-bottom: 20px;
 }
 
 footer a{
     text-decoration: none;
+}
+
+footer a:hover {
+    color: #696968;
 }
